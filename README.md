@@ -49,7 +49,7 @@ j = 5 * 25 / 100 = 5/4
 The floor and ceiling of `j` are thus f = 1 and c = 2.  As long as `data` has been sorted we can thus write that x takes some value between ![](https://render.githubusercontent.com/render/math?math=d_l)=`data[1]` and ![](https://render.githubusercontent.com/render/math?math=d_c)=`data[2]`.  We can then    
 get the final value of `x` here by assuming these two points where we know the function are connected by a straight line and thus writing:
 
-![](https://render.githubusercontent.com/render/math?math=x=d_l+(d_c-d_l)\left(\frac{(N-1)z}{100} - l\right))
+![](https://render.githubusercontent.com/render/math?math=x=d_l%2B(d_c-d_l)\left(\frac{(N-1)z}{100} - l\right))
 
 which is just the equation for a straight line passing through ![](https://render.githubusercontent.com/render/math?math=(l,d_l)) and ![](https://render.githubusercontent.com/render/math?math=(c,d_c)).    
 
